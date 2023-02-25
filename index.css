@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    padding: 15px;
+}
+
+.doc-title {
+    text-align: center;
+    font-family: 'Mynerve', cursive;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+input[type="color"] {
+    height: 2rem;
+}
+
+.mode {
+    width: 300px;
+    height: 2rem;
+}
+
+.btn {
+    background-color: white;
+    border: 1px solid gray;
+    height: 2rem;
+    cursor: pointer;
+    font-family: 'Mynerve', cursive;
+}
+
+.color-selection {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    
+}
+
+.color {
+    border: 1px solid black;
+    width: 20%;
+    height: 550px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 550px;
+    width: 4 00%;
+    object-fit: cover;
+}
+
+.color-title {
+    color: black;
+    text-align: center;
+}
